@@ -20,6 +20,11 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
       rel="stylesheet"
     />
+    <!-- FONT AWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
     <!-- MY CSS LINK -->
     <link type="text/css" rel="stylesheet" href="CSS/main.css" />
     <link
@@ -98,18 +103,26 @@
           </h1>
         </div>
         <div class="container-fluid">
-          <p class="lead text-left text-bg-1">
+          <p class="lead text-left text-bg-1 my-5">
             web developer
           </p>
-          <p class="lead text-left text-bg-1">
+          <p class="lead text-left text-bg-1 my-5">
             html | css | js | bootstrap
           </p>
         </div>
         <div class="container">
-          <p class="lead text-right text-bg-2">
+          <p class="lead text-right text-bg-2 my-5">
             pianist | composer
           </p>
         </div>
+      </div>
+      <div class="container d-flex flex-column align-items-center">
+        <h1 class="text-bg-3 my-5">hello</h1>
+        <h1 id="land-greet-arrow" class="text-bg-4 my-5">
+          <a href="#about-me">
+            <i class="fa fa-chevron-circle-down fa-3x"></i
+          ></a>
+        </h1>
       </div>
     </div>
     <!-- removed container-fluid -->
@@ -128,11 +141,10 @@
         <div class="container d-flex align-items-center">
           <img src="assets/b0ee9f04-04b4-49ae-acd3-f55ec01747a1_200x200.png" />
           <p>
-            As an aspiring fledling web developer, I wish to bring my own unique
+            As an aspiring fledgling web developer, I wish to bring my own unique
             angle to the field. Throughout the development process, I strive for
             an easy-to-understand approach and friendly cooperation with my
-            peers. For web design, I enjoy exploring ways to be creative in
-            providing a pleasant experience and a user-friendly interface.
+            peers. For web design, I enjoy exploring creative ways to provide a pleasant web experience and a user-friendly interface.
           </p>
         </div>
 
@@ -199,7 +211,7 @@
         <img
           src="assets/static-layout-1.png"
           alt="static-layout-1"
-          width="450px"
+          width="300px"
         />
       </div>
     </section>
@@ -215,21 +227,23 @@
           </h3>
           <p>
             Need to refresh your Pokémon knowledge? If so, please try out my
-            Pokémon GSC Search API project! You can look up any pokémon via
-            their name (english only) or national dex ID number. Or, if you are
+            Pokémon GSC Search API Project! You can look up any pokémon via
+            their english name or national dex ID number. Or, if you are
             feeling indecisive, try out the Random Pokémon Button. Hover over
-            pokemon to learn about their name, types, and abilities.
+            pokemon to learn about their names, types, and abilities.
           </p>
         </div>
         <img
           src="assets/api-challenge-1-1.png"
           alt="api-challenge-1-1"
-          width="450px"
+          width="300px"
         />
       </div>
     </section>
     <section id="api-challenge-2">
-      <div class="container d-flex flex-row-reverse align-items-center">
+      <div
+        class="container d-flex flex-row-reverse align-items-center justify-content-center"
+      >
         <div class="container text-right">
           <h3>
             <a
@@ -239,20 +253,30 @@
             >
           </h3>
           <p>
-            If you ever wanted to learn about holidays around the world,
-            please try my Holdays 2020 Information Search API Project. Initially, a full list of nations populates the table. Indeed, you are welcome to scroll through the full list and click on the Holiday Info Button to learn more about the selected country's holidays of 2020. For a more streamlined process, you may also type the name of the desired country in the search bar. As you type, the table will filter the results with the countries that best match your input.
+            If you ever wanted to learn about holidays around the world, please
+            try my Holdays 2020 Information Search API Project. Initially, a
+            full list of nations populates the table. You are welcome to
+            scroll through the full list and click on the Holiday Info Buttons to
+            learn more about each country's holidays of 2020. For a more
+            streamlined process, you may also type the name of the desired
+            country in the search bar. As you type, the table will filter the
+            results with the countries that best match your input.
           </p>
         </div>
-        <img
-          src="assets/api-challenge-2-1.png"
-          alt="api-challenge-2-1"
-          width="300px"
-        />
-        <img
-          src="assets/api-challenge-2-2.png"
-          alt="api-challenge-2-2"
-          width="300px"
-        />
+        <div class="container">
+          <img
+            class="img-fluid"
+            src="assets/api-challenge-2-1.png"
+            alt="api-challenge-2-1"
+            width="200px"
+          />
+          <img
+            class="img-fluid"
+            src="assets/api-challenge-2-2.png"
+            alt="api-challenge-2-2"
+            width="200px"
+          />
+        </div>
       </div>
     </section>
 
@@ -296,7 +320,11 @@
             method="POST"
           >
             <label class="d-block">
-              <p>Your email:</p>
+              <p>
+                If interested, please leave your name, a message, and press the
+                "send" button.
+              </p>
+              <p>Email:</p>
               <input
                 id="formspree-1"
                 class="rounded"
@@ -306,7 +334,7 @@
             </label>
 
             <label class="d-block">
-              <p>Your message:</p>
+              <p>Message:</p>
 
               <textarea
                 id="formspree-2"
@@ -322,11 +350,29 @@
           </form>
         </div>
         <div
-          class="container d-flex flex-column align-items-end justify-content-center"
+          class="container d-flex flex-column align-items-end justify-content-center text-right"
         >
-          <p>123 Super St. Fort Wayne, IN</p>
-          <p>123-456-7890</p>
-          <p>myemail@gmail.com</p>
+          <p class="lh pb-0">
+            <img
+              src="assets/icons8-contact-80.png"
+              alt="contact-80"
+              width="50px"
+            />123 Super St. Fort Wayne, IN
+          </p>
+          <p class="lh pb-0">
+            <img
+              src="assets/icons8-phone-100.png"
+              alt="phone-100"
+              width="50px"
+            />123-456-7890
+          </p>
+          <p class="lh pb-0">
+            <img
+              src="assets/icons8-address-book-100-2.png"
+              alt="book-100-2"
+              width="50px"
+            />myemail@gmail.com
+          </p>
         </div>
       </div>
     </section>
@@ -431,6 +477,14 @@
                     <p>
                       <a class="webdev-link" href=""
                         >red badge project coming soon ...</a
+                      >
+                    </p>
+                    <p>
+                      <a
+                        class="webdev-link"
+                        href="https://repl.it/@phillipmblaine"
+                        target="_blank"
+                        >repl.it projects</a
                       >
                     </p>
                   </div>
@@ -559,29 +613,72 @@
     <section id="footer" class="text-center">
       <div class="container">
         <div class="row">
-          <div class="col-4 text-left">
-            <a href="https://codepen.io/" target="_blank">Codepen</a>
+          <div class="col-4 text-left lh">
+            <a href="https://codepen.io/phillipmblaine" target="_blank"
+              ><img
+                src="assets/icons8-codepen-480.png"
+                width="50px"
+              />CodePen</a
+            >
           </div>
           <div class="col-4"></div>
-          <div class="col-4 text-right">
-            <a href="#home">home (return to top)</a>
+          <div class="col-4 text-right align-items-center lh">
+            <a href="#about-me"
+              ><img
+                src="assets/icons8-user-96.png"
+                alt="user-96"
+                width="50px"
+              />about me</a
+            >
           </div>
         </div>
         <div class="row">
-          <div class="col-4 text-left">
-            <a href="https://github.com/" target="_blank">Github</a>
+          <div class="col-4 text-left lh">
+            <a
+              href="https://github.com/phillipmblaine?tab=repositories"
+              target="_blank"
+              ><img src="assets/733553.svg" width="50px" />GitHub</a
+            >
           </div>
           <div class="col-4"></div>
-          <div class="col-4 text-right"><a href="#about-me">about me</a></div>
+          <div class="col-4 text-right align-items-center lh">
+            <a href="#projects"
+              ><img
+                src="assets/icons8-task-90.png"
+                alt="task-90"
+                width="50px"
+              />projects</a
+            >
+          </div>
         </div>
-        <div class="row">
-          <div class="col-4 text-left">
-            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        <div class="row align-items-center">
+          <div class="col-4 text-left lh">
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><img src="assets/In-2C-54px-R.png" width="50px" />LinkedIn</a
+            >
           </div>
           <div class="col-4"></div>
-          <div class="col-4 text-right"><a href="#projects">projects</a></div>
+          <div class="col-4 text-right align-items-center">
+            <a href="#home"
+              ><img
+                src="assets/b0ee9f04-04b4-49ae-acd3-f55ec01747a1_200x200.png"
+                width="50px"
+              />home (return to top)</a
+            >
+          </div>
         </div>
       </div>
+
+      <!-- <div class="social-icons text-left">  
+        <a
+          href="https://www.linkedin.com/in/metropolis-surveyors-llp-24a5934a/"
+          target="_blank"
+          ><i class="fa fa-linkedin-square"></i
+        ></a>
+        <a href="https://twitter.com/Metropolis_surv" target="_blank"
+          ><i class="fa fa-twitter-square"></i
+        ></a>
+      </div> -->
     </section>
 
     <div id="sub-footer" class="container-fluid text-right">

@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+} */
+
+.contain-width {
+  width: 95%;
+}
+
 body {
   background-color: var(--min-dark-purple);
   font-family: var(--font-one);
