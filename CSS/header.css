@@ -1,0 +1,48 @@
+.jumbotron {
+  color: var(--min-bright-purple);
+  background: url("../assets/wasis-riyan-w67wzrnCdvg-unsplash.jpg") no-repeat
+    center;
+  background-size: cover;
+  background-color: var(--min-purple);
+  background-blend-mode: saturation;
+  /* backdrop-filter does not seem to work */
+  /* backdrop-filter: blur(2px); */
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#bg-filter {
+  backdrop-filter: opacity(0.4);
+}
+
+.text-bg-1 {
+  /* background-color: rgb(28, 35, 74, 0.8); */
+  background-image: linear-gradient(
+    to left,
+    rgba(28, 35, 74, 0),
+    rgba(28, 35, 74, 1)
+  );
+  padding: 4px 20px;
+  border-radius: 7px 0 0 40px;
+  color: var(--min-bright-yellow);
+  /* width: max-content; */
+  /* transition: 0.1s; */
+}
+
+/* .text-bg-1:hover {
+  font-size: 1.5rem;
+  transition: 0.3s;
+} */
+
+.text-bg-2 {
+  /* background-color: rgb(18, 18, 18, 0.8); */
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.7)
+  );
+  padding: 4px 20px;
+  border-radius: 0 7px 40px 0;
+  /* width: max-content; */
+  /* background-color: rgb(28, 35, 74, 0.8); */
+}

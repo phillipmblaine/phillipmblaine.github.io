@@ -1,0 +1,6 @@
+#about {
+  background-color: var(--min-black);
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

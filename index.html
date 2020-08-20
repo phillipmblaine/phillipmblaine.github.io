@@ -4,9 +4,598 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phillip M. Blaine Portfolio</title>
+    <!-- BOOTSTRAP CSS LINK -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- GOOGLE FONTS LINK -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MY CSS LINK -->
     <link type="text/css" rel="stylesheet" href="CSS/main.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/b0ee9f04-04b4-49ae-acd3-f55ec01747a1_200x200.png"
+    />
   </head>
-  <body>
+
+  <body id="home">
+    <!-- NAVBAR -->
+    <nav id="override-nav-bg" class="navbar navbar-expand-lg navbar-dark">
+      <!-- deleted bg-dark -->
+      <!-- can change navbar, bg, etc. to light or dark -->
+      <!-- Need to use inspect tool to see how to properly apply your stylings -->
+      <a class="navbar-brand" href="#home"
+        ><img
+          src="assets/b0ee9f04-04b4-49ae-acd3-f55ec01747a1_200x200.png"
+          alt="logo"
+          width="40px"
+      /></a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" id="nav-content">
+          <li class="nav-item active">
+            <!-- changed the regular pound sign to landing-section id -->
+            <a id="override-navlink" class="nav-link" href="#home"
+              >home<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item li-tag">
+            <a id="override-navlink" class="nav-link" href="#about-me"
+              >about me</a
+            >
+          </li>
+          <li class="nav-item">
+            <a id="override-navlink" class="nav-link" href="#projects"
+              >projects</a
+            >
+          </li>
+          <li class="nav-item">
+            <a id="override-navlink" class="nav-link" href="#contact"
+              >contact</a
+            >
+          </li>
+          <li class="nav-item">
+            <a id="override-navlink" class="nav-link" href="#resources"
+              >resources</a
+            >
+          </li>
+          <li class="nav-item">
+            <a id="override-navlink" class="nav-link" href="#links"
+              >links (bottom of page)</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <div class="container-fluid">
+          <h1 class="display-4 text-right text-bg-2">
+            phillip m. blaine
+          </h1>
+        </div>
+        <div class="container-fluid">
+          <p class="lead text-left text-bg-1">
+            web developer
+          </p>
+          <p class="lead text-left text-bg-1">
+            html | css | js | bootstrap
+          </p>
+        </div>
+        <div class="container">
+          <p class="lead text-right text-bg-2">
+            pianist | composer
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- removed container-fluid -->
+
+    <!-- BOOTSTRAP LAYOUT -->
+    <div id="about-me" class="container-fluid text-center">
+      <h1>about me</h1>
+    </div>
+    <section id="about">
+      <div class="container">
+        <h3>
+          <a href="#home"
+            >Phillip M. Blaine, web developer | pianist | composer</a
+          >
+        </h3>
+        <p>
+          Cupcake ipsum dolor sit amet ice cream jujubes. Powder chocolate bar
+          donut chocolate marzipan wafer sweet cotton candy powder. Gummi bears
+          gummies toffee cookie. Cookie sugar plum caramels. Sesame snaps
+          marshmallow bonbon liquorice bonbon liquorice. Sweet icing candy
+          canes. Sesame snaps muffin danish tiramisu gingerbread dessert muffin.
+          Jujubes jelly apple pie. Candy pudding soufflé. Sesame snaps gummies
+          jujubes topping candy croissant chocolate. Lollipop ice cream brownie
+          cake lemon drops chocolate bar.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <div id="projects" class="container-fluid text-center">
+      <h1>projects</h1>
+    </div>
+
+    <section id="css-creature">
+      <div class="container d-flex align-items-center">
+        <div class="container">
+          <h3>
+            <a
+              href="https://codepen.io/phillipmblaine/full/Rwrmoxg"
+              target="_blank"
+              >CSS Creature</a
+            >
+          </h3>
+          <p>
+            Cake sweet bear claw croissant fruitcake chocolate. Jelly chocolate
+            bar fruitcake jelly fruitcake croissant bonbon oat cake. Ice cream
+            cake muffin lollipop lemon drops. Jelly bear claw pie cookie ice
+            cream.
+          </p>
+        </div>
+        <img
+          src="assets/css-creature-1.png"
+          alt="css-creature-1"
+          width="250px"
+        />
+      </div>
+    </section>
+    <section id="static-layout">
+      <div class="container d-flex flex-row-reverse align-items-center">
+        <div class="container">
+          <h3 class="text-right">
+            <a
+              href="https://phillipmblaine.github.io/super-duper-journey/"
+              target="_blank"
+              >Static Layout</a
+            >
+          </h3>
+          <p class="text-right">
+            Apple pie caramels macaroon soufflé jelly ice cream. Candy canes
+            biscuit marshmallow caramels brownie donut lemon drops. Biscuit
+            cheesecake bear claw tiramisu muffin tootsie roll pastry sesame
+            snaps.
+          </p>
+        </div>
+        <img
+          src="assets/static-layout-1.png"
+          alt="static-layout-1"
+          width="450px"
+        />
+      </div>
+    </section>
+    <section id="api-challenge-1">
+      <div class="container d-flex align-items-center">
+        <div class="container">
+          <h3>
+            <a
+              href="https://phillipmblaine.github.io/api-challenge/"
+              target="_blank"
+              >Pokemon GSC Search API</a
+            >
+          </h3>
+          <p>
+            Pie oat cake bonbon icing gummi bears fruitcake. Tart jelly-o sugar
+            plum danish carrot cake jelly danish marzipan cupcake. Gummi bears
+            candy canes cupcake halvah oat cake tiramisu.xw
+          </p>
+        </div>
+        <img
+          src="assets/api-challenge-1-1.png"
+          alt="api-challenge-1-1"
+          width="450px"
+        />
+      </div>
+    </section>
+    <section id="api-challenge-2">
+      <div class="container d-flex flex-row-reverse align-items-center">
+        <div class="container text-right">
+          <h3>
+            <a
+              href="https://apichallenge2-38540.firebaseapp.com/"
+              target="_blank"
+              >Holidays 2020 Information Search</a
+            >
+          </h3>
+          <p>
+            Cupcake ipsum dolor. Sit amet pie bonbon halvah donut powder
+            chocolate cake cake. Tart gummi bears croissant brownie donut. Donut
+            I love pudding I love I love candy canes chocolate bar.
+          </p>
+        </div>
+        <img
+          src="assets/api-challenge-2-1.png"
+          alt="api-challenge-2-1"
+          width="300px"
+        />
+        <img
+          src="assets/api-challenge-2-2.png"
+          alt="api-challenge-2-2"
+          width="300px"
+        />
+      </div>
+    </section>
+
+    <section id="blue-badge-project" class="text-left">
+      <div class="container d-flex align-items-center">
+        <div class="container">
+          <h3><a href="">Blue Badge Project</a></h3>
+          <p>Coming soon ...</p>
+        </div>
+        <img
+          src="assets/badges-webdev_blue.png"
+          alt="blue-badge"
+          width="150px"
+        />
+      </div>
+    </section>
+
+    <section id="red-badge-project" class="text-right">
+      <div class="container d-flex flex-row-reverse align-items-center">
+        <div class="container">
+          <h3><a href="">Red Badge Project</a></h3>
+          <p>Coming soon ...</p>
+        </div>
+        <img src="assets/badges-webdev_red.png" alt="red-badge" width="150px" />
+      </div>
+    </section>
+
+    <div id="contact" class="container-fluid text-center">
+      <h1>contact</h1>
+    </div>
+    <section id="contact-section">
+      <div class="container d-flex flex-row">
+        <!-- modify this form HTML and place wherever you want your form -->
+        <!-- formspree form (contact) -->
+        <div
+          class="container d-flex flex-column justify-content-center align-items-start text-center"
+        >
+          <form
+            class="text-left"
+            action="https://formspree.io/xzbjwrbz"
+            method="POST"
+          >
+            <label class="d-block">
+              <p>Your email:</p>
+              <input
+                id="formspree-1"
+                class="rounded"
+                type="text"
+                name="_replyto"
+              />
+            </label>
+
+            <label class="d-block">
+              <p>Your message:</p>
+
+              <textarea
+                id="formspree-2"
+                class="rounded"
+                name="message"
+              ></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+            <button id="submit-button" class="rounded" type="submit">
+              Send
+            </button>
+          </form>
+        </div>
+        <div
+          class="container d-flex flex-column align-items-end justify-content-center"
+        >
+          <p>123 Super St. Fort Wayne, IN</p>
+          <p>123-456-7890</p>
+          <p>myemail@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="resources" class="container-fluid text-center">
+      <h1>resources</h1>
+    </div>
+    <section id="resources-section" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-left text-center">web development</div>
+          <div class="col-4"><br /></div>
+          <div class="col-4 text-center">music</div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-left"><br /></div>
+          <div class="col-4"><br /></div>
+          <div class="col-4 text-right"><br /></div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-center">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-toggle="modal"
+              data-target="#development-modal"
+            >
+              projects and résumé
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="development-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="development-modalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="development-modalLabel">
+                      projects and résumé
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-left">
+                    <p>
+                      <a
+                        class="webdev-link"
+                        href="https://drive.google.com/file/d/1PgGsOeO_PG-x-4Oz3v2NFqdI1ndO_Q0r/view?usp=sharing"
+                        target="_blank"
+                        >Résumé (Google Drive Link)</a
+                      >
+                    </p>
+                    <br />
+                    <p><a class="webdev-link" href="">css creature</a></p>
+                    <p><a class="webdev-link" href="">static layout</a></p>
+                    <p>
+                      <a class="webdev-link" href="">pokemon gsc search api</a>
+                    </p>
+                    <p>
+                      <a class="webdev-link" href=""
+                        >international holidays 2020 information search api</a
+                      >
+                    </p>
+                    <p>
+                      <a class="webdev-link" href=""
+                        >blue badge project coming soon ...</a
+                      >
+                    </p>
+                    <p>
+                      <a class="webdev-link" href=""
+                        >red badge project coming soon ...</a
+                      >
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary bg-dark"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4"><br /></div>
+          <div class="col-4 text-center">
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-toggle="modal"
+              data-target="#recordings-modal"
+            >
+              recordings
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="recordings-modal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="recordings-modalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="recordings-modalLabel">
+                      recordings
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <p>rachmaninoff: etude op. 39 no. 3</p>
+                    <p>
+                      <audio controls>
+                        <source
+                          src="assets/raach-39-03.mp3"
+                          type="audio/mpeg"
+                        />
+                        your browser does not support the audio element.
+                      </audio>
+                    </p>
+
+                    <p>scarlatti sonata in c k. 132</p>
+                    <p>
+                      <audio controls>
+                        <source
+                          src="assets/scarlatti-k-132.mp3"
+                          type="audio/mpeg"
+                        />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </p>
+
+                    <p>grandma (nier)</p>
+                    <p>
+                      <audio controls>
+                        <source src="assets/grandma-6.mp3" type="audio/mpeg" />
+                        your browser does not support the audio element.
+                      </audio>
+                    </p>
+
+                    <p>innocence of truth (final fantasy crisis core)</p>
+                    <p>
+                      <audio controls>
+                        <source
+                          src="assets/innocence-of-truth-2.mp3"
+                          type="audio/mpeg"
+                        />
+                        your browser does not support the audio element.
+                      </audio>
+                    </p>
+
+                    <p>bicycle (electroacoustic composition)</p>
+                    <p>
+                      <audio controls>
+                        <source src="assets/bicycle.mp3" type="audio/mpeg" />
+                        your browser does not support the audio element.
+                      </audio>
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary bg-dark"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="links" class="container-fluid text-center">
+      <h1>links</h1>
+    </div>
+    <section id="footer" class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 text-left">
+            <a href="https://codepen.io/" target="_blank">Codepen</a>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4 text-right">
+            <a href="#home">home (return to top)</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-left">
+            <a href="https://github.com/" target="_blank">Github</a>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4 text-right"><a href="#about-me">about me</a></div>
+        </div>
+        <div class="row">
+          <div class="col-4 text-left">
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          </div>
+          <div class="col-4"></div>
+          <div class="col-4 text-right"><a href="#projects">projects</a></div>
+        </div>
+      </div>
+    </section>
+
+    <div id="sub-footer" class="container-fluid text-right">
+      <h6 id="cr">Phillip M. Blaine &copy; 2020</h6>
+    </div>
+    <!-- <div class="footer">
+      <div class="container"> -->
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <!-- formspree form (contact) -->
+    <!-- <form action="https://formspree.io/xzbjwrbz" method="POST">
+
+          <label>
+            Your email:
+            <input type="text" name="_replyto" />
+          </label>
+      </div>
+
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label> -->
+
+    <!-- your other form fields go here -->
+    <!-- <button type="submit">Send</button>
+      </form>
+
+    </div>
+  </div>
+
+  <div class="container">Footer Content</div> -->
+
+    <!-- BOOTSTRAP SCRIPT TAGS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- MY JAVASCRIPT TAG -->
     <script src="main.js"></script>
   </body>
 </html>

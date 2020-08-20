@@ -1,0 +1,68 @@
+#formspree-1 {
+  width: 300px;
+  background-color: darkslateblue;
+  border: 3px outset darkviolet;
+  transition: 0.1s;
+  outline: none;
+  color: white;
+}
+
+#formspree-1:focus {
+  border-color: cyan;
+  transition: 0.4s;
+  background-color: #212133;
+}
+
+#formspree-2 {
+  width: 300px;
+  background-color: darkslateblue;
+  border: 3px outset darkmagenta;
+  transition: 0.1s;
+  outline: none;
+  color: white;
+}
+
+#formspree-2:focus {
+  border-color: lightgreen;
+  transition: 0.4s;
+  background-color: #212133;
+}
+
+#submit-button {
+  width: max-content;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: #0a17ea;
+  color: white;
+  transition: 0.1s;
+}
+
+#submit-button:hover {
+  color: var(--min-bright-yellow);
+  background-color: #26664a;
+  transition: 0.2s;
+}
+
+#contact-section {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  /* background-color: var(--dark-blue); */
+  background-color: var(--min-dark-blue);
+}
+
+#contact-section p {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+#resources-section {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  /* background-color: var(--dark-blue); */
+  background-color: var(--min-dark-purple);
+}
+
+#resources-section p {
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }

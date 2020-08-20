@@ -1,0 +1,57 @@
+#css-creature {
+  /* background-color: #2d1931; */
+  background-color: #1b1531;
+  /* background-color: #13121a; */
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#static-layout {
+  /* background-color: #783052; */
+  /* background-color: #814f69; */
+  /* background-color: #1b1531; */
+  background-color: #48394d;
+  /* color: #d19954; */
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#api-challenge-1 {
+  /* background-color: #48394d; */
+  background-color: #783052;
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#api-challenge-2 {
+  background-color: #69192f;
+  /* color: #f2daae; */
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#blue-badge-project {
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* background-color: #348db9; */
+  /* background-color: #3469b9; */
+  background-color: #1d536e;
+  /* text-shadow: 1px 1px 1px #202020;
+  text-shadow: 2px 2px 3px #202020; */
+}
+
+#red-badge-project {
+  font-family: var(--font-two);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* background-color: #ea494e; */
+  /* background-color: #9c3539; */
+  background-color: #861d1d;
+  /* text-shadow: 1px 1px 1px #202020;
+  text-shadow: 2px 2px 3px #202020; */
+}
