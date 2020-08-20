@@ -20,14 +20,14 @@
 
 #api-challenge-1 {
   /* background-color: #48394d; */
-  background-color: #783052;
+  background-color: #783052bb;
   font-family: var(--font-two);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
 #api-challenge-2 {
-  background-color: #69192f;
+  background-color: #69192f88;
   /* color: #f2daae; */
   font-family: var(--font-two);
   padding-top: 0.5rem;
@@ -40,7 +40,7 @@
   padding-bottom: 0.5rem;
   /* background-color: #348db9; */
   /* background-color: #3469b9; */
-  background-color: #1d536e;
+  background-color: #1d536eee;
   /* text-shadow: 1px 1px 1px #202020;
   text-shadow: 2px 2px 3px #202020; */
 }
@@ -51,7 +51,7 @@
   padding-bottom: 0.5rem;
   /* background-color: #ea494e; */
   /* background-color: #9c3539; */
-  background-color: #861d1d;
+  background-color: #861d1d77;
   /* text-shadow: 1px 1px 1px #202020;
   text-shadow: 2px 2px 3px #202020; */
 }

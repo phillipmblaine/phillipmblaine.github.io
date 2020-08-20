@@ -88,6 +88,20 @@ h3 a {
   transition: 0.1s;
 }
 
+p a {
+  color: var(--min-light-yellow);
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+p a:hover {
+  text-decoration: none;
+  transition: 0.2s;
+  color: var(--min-bright-purple);
+  text-shadow: 1px 1px 1px #202020;
+  text-shadow: 2px 2px 3px #202020;
+}
+
 h3 a:hover {
   text-decoration: none;
   transition: 0.2s;

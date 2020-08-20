@@ -26,13 +26,15 @@
   /* --red: #e80d0d; */
 
   --min-black: #121212;
-  --min-gray: #343b3c;
+  /* --min-gray: #414451; */
+  /* --min-gray: #39393d; */
+  --min-gray: #39393d33;
   --min-dark-purple: #19101b;
   --min-purple: #29202b;
   --min-bright-purple: #fd14f4;
   --min-dark-blue: #13121a;
   --min-blue: #1c234a;
-  --min-dark-blue: #0c0f3e;
+  --min-dark-blue: #0c0f3e66;
   /* --min-dark-blue: #393b61; */
   --min-turquoise: #07242d;
   --min-yellow: #ecc056;
