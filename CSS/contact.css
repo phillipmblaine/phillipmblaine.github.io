@@ -1,5 +1,6 @@
 #formspree-1 {
-  width: 300px;
+  min-width: 150px;
+  width: 80%;
   background-color: darkslateblue;
   border: 3px outset darkviolet;
   transition: 0.1s;
@@ -14,7 +15,8 @@
 }
 
 #formspree-2 {
-  width: 300px;
+  min-width: 150px;
+  width: 80%;
   background-color: darkslateblue;
   border: 3px outset darkmagenta;
   transition: 0.1s;
@@ -44,25 +46,42 @@
 }
 
 #contact-section {
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
-  /* background-color: var(--dark-blue); */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: var(--min-dark-blue);
 }
 
 #contact-section p {
   margin: 0;
   padding-bottom: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.ci1 {
+  margin-right: 0.5rem;
+}
+
+.pi1 {
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 20%;
+  margin-right: 0.5rem;
+}
+
+.ai1 {
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 20%;
+  margin-right: 0.5rem;
 }
 
 #resources-section {
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
-  /* background-color: var(--dark-blue); */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 100%;
   background-color: var(--min-dark-purple);
 }
 
 #resources-section p {
   margin: 0;
+  /* padding-top: 0.5rem; */
   padding-bottom: 0.5rem;
 }

@@ -2,21 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @media (min-width: 1200px) {
-  .container {
-    max-width: 970px;
-  }
-} */
-
-.contain-width {
-  width: 95%;
-}
-
 body {
   background-color: var(--min-dark-purple);
-  font-family: var(--font-one);
   color: var(--min-light-yellow);
-  /* background-color: firebrick; */
+  font-family: var(--font-one);
 }
 
 #about-me {
@@ -25,9 +14,15 @@ body {
   padding-bottom: 0.8rem;
   /* margin-bottom: 0; */
 }
+
 #about-me h1 {
   color: var(--min-white);
   margin-bottom: 0;
+}
+
+#piano-icon {
+  background-color: rgba(255, 255, 255, 0.39);
+  border-radius: 20%;
 }
 
 #projects {
@@ -36,13 +31,13 @@ body {
   padding-bottom: 0.8rem;
   /* margin-bottom: 0; */
 }
+
 #projects h1 {
   color: var(--min-white);
   margin-bottom: 0;
 }
 
 #contact {
-  /* background-color: var(--min-deep-blue); */
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
   background-color: #0a17ea;
@@ -75,27 +70,18 @@ body {
   margin-bottom: 0;
 }
 
-.project-title {
-  color: var(--min-white-body);
-}
-
-img {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px;
-}
-
-h3 {
-  color: var(--min-light-yellow);
-  font-weight: bold;
-}
-
 h3 a {
-  color: var(--min-light-yellow);
+  color: #006eff;
   text-decoration: none;
   transition: 0.1s;
+}
+
+h3 a:hover {
+  text-decoration: none;
+  transition: 0.2s;
+  color: var(--min-bright-purple);
+  text-shadow: 1px 1px 1px #202020;
+  text-shadow: 2px 2px 3px #202020;
 }
 
 p a {
@@ -110,16 +96,4 @@ p a:hover {
   color: var(--min-bright-purple);
   text-shadow: 1px 1px 1px #202020;
   text-shadow: 2px 2px 3px #202020;
-}
-
-h3 a:hover {
-  text-decoration: none;
-  transition: 0.2s;
-  color: var(--min-bright-purple);
-  text-shadow: 1px 1px 1px #202020;
-  text-shadow: 2px 2px 3px #202020;
-}
-
-p {
-  color: var(--min-white-body);
 }

@@ -1,7 +1,6 @@
 .jumbotron {
   color: var(--min-bright-purple);
-  background: url("../assets/wasis-riyan-w67wzrnCdvg-unsplash.jpg") no-repeat
-    center;
+  background: url("../assets/jumbotron-bg-1.jpg") no-repeat center;
   background-size: cover;
   background-color: var(--min-purple);
   background-blend-mode: saturation;
@@ -9,11 +8,7 @@
   /* backdrop-filter: blur(2px); */
   text-align: center;
   margin-bottom: 0;
-  height: 100vh;
-}
-
-#bg-filter {
-  backdrop-filter: opacity(0.4);
+  height: 120vh;
 }
 
 .text-bg-1 {
@@ -23,26 +18,20 @@
     rgba(28, 35, 74, 0),
     rgba(28, 35, 74, 1)
   );
-  padding: 4px 20px;
+  padding: 4px 3rem;
   border-radius: 7px 0 0 40px;
   color: var(--min-bright-yellow);
   /* width: max-content; */
   /* transition: 0.1s; */
-  transition: 2s;
+  transition: 1.5s;
   opacity: 0.9;
 }
 
-/* .text-bg-1:hover {
-  font-size: 1.5rem;
-  transition: 0.3s;
-} */
-
 .text-bg-1:hover {
-  padding: 0.8rem 10rem;
   opacity: 1;
-  transition: 2s;
+  transition: 1.5s;
   color: rgb(0, 247, 255);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text-bg-2 {
@@ -52,18 +41,17 @@
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.7)
   );
-  padding: 1rem 3rem;
+  padding: 1rem 4rem;
   border-radius: 0 1rem 9rem 0;
   /* width: max-content; */
   /* background-color: rgb(28, 35, 74, 0.8); */
-  transition: 2s;
+  transition: 1.5s;
 }
 
 .text-bg-2:hover {
-  border-radius: 3rem 9rem 20rem 3rem;
   transition: 2s;
   color: crimson;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text-bg-3 {
@@ -73,20 +61,19 @@
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.4)
   );
-  padding: 0.4rem 20rem;
+  padding: 0.4rem 2rem;
   border-radius: 1rem 1rem 7rem 7rem;
-  font-size: 3rem;
-  transition: 6s;
+  font-size: 2rem;
+  transition: 2.5s;
   opacity: 0.4;
 }
 
 .text-bg-3:hover {
   /* background-color: rgb(18, 18, 18, 0.8); */
-  padding: 0.8rem 30rem;
   border-radius: 1rem 1rem 7rem 7rem;
-  font-size: 5rem;
+  font-size: 3rem;
   opacity: 0.8;
-  transition: 3s;
+  transition: 1.5s;
   color: lightgreen;
 }
 
@@ -97,29 +84,30 @@
     rgba(0, 0, 0, 0),
     rgba(0, 0, 0, 0.4)
   );
-  padding: 50px 10px 0 10px;
+  padding: 1rem 1rem 0 1rem;
   border-radius: 3rem 3rem 7rem 7rem;
 }
 
 #land-greet-arrow {
   opacity: 0.3;
-  transition: 6s;
+  transition: 2s;
 }
 
 #land-greet-arrow a {
   opacity: 0.3;
-  transition: 6s;
+  transition: 1.5s;
   color: var(--min-bright-purple);
 }
 
 #land-greet-arrow:hover {
   opacity: 0.9;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 #land-greet-arrow a:hover {
+    font-size: 2.5rem;
   opacity: 0.9;
-  transition: 2s;
+  transition: 1.5s;
   color: lime;
   cursor: pointer;
 }
